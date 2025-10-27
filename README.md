@@ -1,16 +1,51 @@
-# React + Vite
+# Simple Interval Timer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and simple interval timer application built with React. This web app allows users to set up, run, and manage custom interval training sessions directly in their browser.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*   Set custom durations for high-intensity and rest intervals.
+*   Define the number of rounds for the workout.
+*   Start, pause, and reset the timer.
+*   Clear and intuitive display of the current interval, remaining time, and rounds.
+*   Responsive design for use on desktop and mobile devices.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*   **Frontend:** React
+*   **Build Tool:** Vite
+*   **Styling:** Tailwind CSS
+*   **Linting:** ESLint
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+*   Node.js (v18.x or higher recommended)
+*   npm
+
+### Installation & Running
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/simple-interval-timer.git
+    cd simple-interval-timer
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+    The application will be available at `http://localhost:5173` (or another port if 5173 is in use).
+
+## Available Scripts
+
+*   `npm run dev`: Starts the development server.
+*   `npm run build`: Builds the application for production.
+*   `npm run lint`: Lints the codebase using ESLint.
+*   `npm run preview`: Serves the production build locally for preview.

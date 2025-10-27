@@ -49,3 +49,9 @@ A clean and simple interval timer application built with React. This web app all
 *   `npm run build`: Builds the application for production.
 *   `npm run lint`: Lints the codebase using ESLint.
 *   `npm run preview`: Serves the production build locally for preview.
+
+---
+
+## ✨ Built with Gemini
+
+This project was bootstrapped and developed with the assistance of Google's Gemini.

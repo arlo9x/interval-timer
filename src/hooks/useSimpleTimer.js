@@ -114,6 +114,12 @@ export default function useSimpleTimer(intervalTime, breakTime, numIntervals) {
         setBackgroundColor('');
       }
     } else if (phase === 'break') {
+      if (current >= numIntervals) {
+        setPhase('done');
+        setIsRunning(false);
+        setBackgroundColor('');
+        return;
+      }
       setCurrent(prev => prev + 1);
       setPhase('work');
       setTimeLeft(intervalTime);
